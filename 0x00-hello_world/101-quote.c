@@ -1,9 +1,15 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <string.h>
-int main() {
-    const char* quote = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-    fflush(stdout);
-    write(STDOUT_FILENO, quote, strlen(quote));
-    return 1;
+/**
+ * main - Entry point
+ * Return: 1 always
+ */
+
+int main(void)
+{
+const char *q = "and that piece of art is useful\"- Dora Korpar, 2015-10-19\n";
+fflush(stdout);
+write(STDOUT_FILENO, q, strlen(q));
+return (1);
 }
