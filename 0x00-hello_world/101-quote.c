@@ -8,7 +8,7 @@
 
 int main(void)
 {
-const char *q = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+char *q = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 fflush(stdout);
 write(STDOUT_FILENO, q, strlen(q));
 return (1);
