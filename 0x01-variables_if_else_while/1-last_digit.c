@@ -9,16 +9,17 @@
 */
 int main(void)
 {
-    int n;
+    int n, sign, last_digit_of_n;
+    char f[100];
+    char buffer[100];
+
     srand(time(0));
     n = rand() - RAND_MAX / 2;
     
-    int sign = abs(n) / n;
-    char buffer[100];
+    sign = abs(n) / n;
     sprintf(buffer, "%d", n);
     
-    char f[100] = {0};
-    int last_digit_of_n = sign * atoi(&buffer[strlen(buffer)- 1]);
+    last_digit_of_n = sign * atoi(&buffer[strlen(buffer)- 1]);
     if ( last_digit_of_n > 5 )
     {
       strcpy(f, "and is greater than 5");
