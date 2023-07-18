@@ -1,13 +1,14 @@
 #include <stdio.h>
+#include <stdint.h>
 /**
  * main - Entry point
  * Return: 0 always
  */
 int main(void)
 {
-double n1;
-double n2;
-double nth;
+uint64_t n1;
+uint64_t n2;
+uint64_t nth;
 int count;
 n1 = 1;
 n2 = 2;
@@ -16,11 +17,11 @@ while (count < 98)
 {
 if (count == 97)
 {
-printf("%.0f", n1);
+printf("%ld", n1);
 }
 else
 {
-printf("%.0f, ", n1);
+printf("%ld, ", n1);
 }
 nth = n1 + n2;
 n1 = n2;
