@@ -16,7 +16,7 @@ _putchar((int)hr / 10 + '0');
 _putchar((int)hr % 10 + '0');
 _putchar(':');
 _putchar((int)min / 10 + '0');
-_putchar((int)hr % 10 + '0');
+_putchar((int)min % 10 + '0');
 _putchar('\n');
 }
 }
