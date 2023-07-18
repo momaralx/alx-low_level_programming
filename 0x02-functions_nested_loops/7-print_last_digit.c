@@ -26,7 +26,7 @@ int last;
 last = _abs(n) % 10;
 if (n == INT_MIN)
 {
-_putchar(last + '8');
+_putchar('8');
 return (8);
 }
 else
