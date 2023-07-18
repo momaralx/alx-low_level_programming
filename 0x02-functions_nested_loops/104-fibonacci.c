@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-unsigned long int n1;
-unsigned long int n2;
-unsigned long int nth;
+double n1;
+double n2;
+double nth;
 int count;
 n1 = 1;
 n2 = 2;
@@ -16,11 +16,11 @@ while (count < 98)
 {
 if (count == 97)
 {
-printf("%lu", n1);
+printf("%.0f", n1);
 }
 else
 {
-printf("%lu, ", n1);
+printf("%.0f, ", n1);
 }
 nth = n1 + n2;
 n1 = n2;
