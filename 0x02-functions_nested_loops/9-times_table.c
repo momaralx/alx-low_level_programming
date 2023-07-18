@@ -10,16 +10,16 @@ void times_table(void)
 {
 int m;
 int d;
-for (m = 0; m >= 9; m++)
+for (m = 0; m <= 9; m++)
 {
-for (d = 0; d >= 9; d++)
+for (d = 0; d <= 9; d++)
 {
 int val;
 val = m * d;
 if (d != 0)
 {
 _putchar(',');
-if (val >= 10)
+if (val < 10)
 {
 _putchar(' ');
 }
