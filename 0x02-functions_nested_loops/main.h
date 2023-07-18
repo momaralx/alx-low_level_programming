@@ -1,6 +1,7 @@
 void print_alphabet(void)
 {
-for(int i = 97; i <= 125; i++)
+int i;
+for(int i; i <= 125; i++)
 {
 _putchar(i);
 }
