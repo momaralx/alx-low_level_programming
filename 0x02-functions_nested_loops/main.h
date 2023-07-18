@@ -1,3 +1,10 @@
+#include "_putchar.h"
+
+
+/**
+ * print_alphabet - Print alphabet
+ * Return: nothing
+*/
 void print_alphabet(void)
 {
 int i;
