@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-long int n1;
-long int n2;
-long int nth;
+unsigned long int n1;
+unsigned long int n2;
+unsigned long int nth;
 int count;
 n1 = 1;
 n2 = 2;
