@@ -1,12 +1,16 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - print alphabet
  *
- * Return: Always 0.
+ * Return: nothing
  */
-int main(void)
+void print_alphabet(void)
 {
-print_alphabet();
-return (0);
+int i;
+for(i = 97; i <= 125; i++)
+{
+_putchar(i);
+}
+_putchar('\n');
 }

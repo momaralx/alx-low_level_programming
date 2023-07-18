@@ -9,3 +9,4 @@ int main(void)
 printf("_putchar\n");
 return (0);
 }
+void print_alphabet(void);
