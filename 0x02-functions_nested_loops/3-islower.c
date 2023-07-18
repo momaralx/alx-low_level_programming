@@ -3,9 +3,9 @@
 
 /**
  * _islower - is lower
+ * @c : the character to check for
  * Return: 1 is lower, otherwise 0
  */
-
 int _islower(int c)
 {
 if ((c >= 97) && (c <= 122))
