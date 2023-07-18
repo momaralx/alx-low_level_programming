@@ -41,9 +41,9 @@ _putchar(val % 10 + '0');
 }
 else if (val >= 100)
 {
-_putchar(val / 100 + '0');
-_putchar((val % 100) / 10 + '0');
-_putchar((val % 100) % 10 + '0');
+_putchar((int)(val / 100) + '0');
+_putchar((int)((int)(val % 100) / 10) + '0');
+_putchar((int)((int)(val % 100) % 10) + '0');
 }
 else
 {
