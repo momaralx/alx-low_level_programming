@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-int n1;
-int n2;
-int nth;
+long long int n1;
+long long int n2;
+long long int nth;
 int count;
 n1 = 1;
 n2 = 2;
@@ -16,11 +16,11 @@ while (count < 50)
 {
 if (count == 49)
 {
-printf("%u", n1);
+printf("%llu", n1);
 }
 else
 {
-printf("%u, ", n1);
+printf("%llu, ", n1);
 }
 nth = n1 + n2;
 n1 = n2;
