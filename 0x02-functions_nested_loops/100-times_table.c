@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_times_table - 0x0...nxn
- * @n : print till n
- * Return: nothing
- *
- */
+* print_times_table - 0x0...nxn
+* @n : print till n
+* Return: nothing
+*
+*/
 
 void print_times_table(int n)
 {
@@ -34,16 +34,16 @@ _putchar(' ');
 }
 _putchar(' ');
 }
-if (val >= 10)
-{
-_putchar(val / 10 + '0');
-_putchar(val % 10 + '0');
-}
-else if (val >= 100)
+if (val >= 100)
 {
 _putchar((int)(val / 100) + '0');
 _putchar((int)((int)(val % 100) / 10) + '0');
 _putchar((int)((int)(val % 100) % 10) + '0');
+}
+else if (val >= 10)
+{
+_putchar(val / 10 + '0');
+_putchar(val % 10 + '0');
 }
 else
 {
